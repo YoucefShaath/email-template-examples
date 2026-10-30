@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="only light" />
+    <meta name="supported-color-schemes" content="only light" />
+    <title>Online Session - CSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Quicksand + Outfit + Inter (Outfit and Inter were not being loaded before) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @media only screen and (max-width: 600px) {
+        .container { width: 100% !important; max-width: 100% !important; }
+        .px { padding-left: 24px !important; padding-right: 24px !important; }
+        .title-text { font-size: 36px !important; }
+        .title-cell { padding-left: 0 !important; }
+        .card-outer { width: 100% !important; }
+        .footer-title { font-size: 26px !important; }
+      }
+    </style>
+  </head>
+
+  <body style="margin:0; padding:0; background-color:#ffffff; color-scheme:only light;">
+    <!-- Preheader (inbox preview text) -->
+    <div style="display:none; white-space:nowrap; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">
+      Missed the info session? No worries, join us online on October 13th at 20h.
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+    </div>
+
+    <!-- ===== Outer wrapper ===== -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;">
+      <tr>
+        <td align="center">
+
+          <!-- ===== Email card (584px) ===== -->
+          <table role="presentation" class="container" width="584" cellpadding="0" cellspacing="0" border="0" style="width:584px; max-width:584px; background-color:#ffffff;">
+
+            <!-- =====================================================
+                 TOP SECTION: white with grid texture (image tile)
+                 ===================================================== -->
+            <tr>
+              <td
+                bgcolor="#ffffff"
+                background="https://lh3.googleusercontent.com/d/1xlUrK1jC9pSCrr_hZJW9cCLoYTb-7YlJ"
+                style="
+                  background-color:#ffffff;
+                  background-image:url('https://lh3.googleusercontent.com/d/1xlUrK1jC9pSCrr_hZJW9cCLoYTb-7YlJ');
+                  background-repeat:repeat;
+                "
+              >
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+
+                  <!-- =====================================================
+                       HEADER BLOCK
+                       One table, 4 columns: 26% | 48% | 13% | 13%
+                       - left shape  : col 1, row 1            (26% wide, like the design)
+                       - logo        : col 2, row 1            (centered: 26% + 24% = 50%)
+                       - right shape : col 4, SPANS rows 1+2   (13% wide) -> it runs down
+                                       beside the title instead of pushing it down
+                       - title       : row 2, cols 1-3
+                       ===================================================== -->
+                  <tr>
+                    <td style="padding:0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <!-- Top-LEFT shape -->
+                          <td width="26%" valign="top" align="left" style="font-size:0; line-height:0;">
+                            <img
+                              src="https://lh3.googleusercontent.com/d/1O47iV2l7PQwzn1VDd_5B3_fTX6xbzKc3"
+                              width="152"
+                              alt=""
+                              style="display:block; width:100%; max-width:163px; height:auto;"
+                            />
+                          </td>
+
+                          <!-- Logo (center) -->
+                          <td width="48%" valign="top" align="center" style="padding:48px 0 0 0;">
+                            <img
+                              src="https://lh3.googleusercontent.com/d/1suKZqFW3CyIbSTiBUd8uP3ealc0jx1Bj"
+                              width="215"
+                              alt="Club Scientifique de l'ESI"
+                              style="display:block; width:215px; max-width:100%; height:auto; margin:0 auto;"
+                            />
+                          </td>
+
+                          <!-- balance column (keeps the logo centered) -->
+                          <td width="13%" style="font-size:0; line-height:0;">&nbsp;</td>
+
+                          <!-- Top-RIGHT shape: spans the logo row AND the title row -->
+                          <td width="13%" rowspan="2" valign="top" align="right" style="font-size:0; line-height:0; opacity:0;">
+                            <img
+                              src="https://lh3.googleusercontent.com/d/1QVS4-ZJgDtmAUJYSEcKSI6JhobQBQuWx"
+                              width="76"
+                              alt=""
+                              style="display:block; width:100%; max-width:82px; height:auto; margin-left:auto;"
+                            />
+                          </td>
+                        </tr>
+
+                        <!-- ===== Title row ===== -->
+                        <tr>
+                          <td colspan="3" class="title-cell" align="center" valign="top" style="padding:17px 0 0 76px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                              <tr>
+                                <!-- Title text + pink highlight -->
+                                <td valign="top" align="center" style="padding:0;">
+                                  <span
+                                    class="title-text"
+                                    style="
+                                      display:inline-block;
+                                      font-family:'Quicksand','Helvetica Neue',Arial,sans-serif;
+                                      font-size:52px;
+                                      font-weight:700;
+                                      line-height:100%;
+                                      color:#000000;
+                                      background-color:transparent;
+                                      background-image:linear-gradient(transparent 56%, #ff9fe5 56%);
+                                      border-radius:0 0 10px 10px;
+                                      padding:0 12px 14px 12px;
+                                    "
+                                  >Online session</span>
+                                </td>
+
+                                <!-- Sparkle cluster: big one overlaps the end of the title -->
+                                <td valign="top" style="padding:0; font-size:0; line-height:0;">
+                                  <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td style="padding:0; font-size:0; line-height:0;">
+                                        <img
+                                          src="https://lh3.googleusercontent.com/d/1lQf0K1BY__NkOOZ_M-WzbUJOFN8BHt5S"
+                                          width="41"
+                                          alt=""
+                                          style="display:inline-block; vertical-align:top; width:41px; height:auto; margin:-17px 0 0 -43px; transform:rotate(-12deg);"
+                                        />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td style="padding:0; font-size:0; line-height:0;">
+                                        <img
+                                          src="https://lh3.googleusercontent.com/d/1lQf0K1BY__NkOOZ_M-WzbUJOFN8BHt5S"
+                                          width="28"
+                                          alt=""
+                                          style="display:inline-block; vertical-align:top; width:28px; height:auto; margin:-8px 0 0 -15px; transform:rotate(14deg);"
+                                        />
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <!-- gap between header block and "Dear newbie," (lower = closer) -->
+                  <tr><td height="70" style="font-size:0; line-height:0;">&nbsp;</td></tr>
+
+                  <!-- ===== Greeting ===== -->
+                  <tr>
+                    <td class="px" style="padding:0 45px 16px 45px;">
+                      <p style="margin:0; font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:26px; font-weight:700; line-height:1.4; color:black;">
+                        Dear newbie,
+                      </p>
+                    </td>
+                  </tr>
+
+                  <!-- ===== Paragraph 1 ===== -->
+                  <tr>
+                    <td class="px" style="padding:0 45px 16px 45px;">
+                      <p style="margin:0; font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:20px; font-weight:500; line-height:1.6; color:#312F33;">
+                        We hope you enjoyed our info session! And if you couldn't make it, no worries, we've got you covered.
+                      </p>
+                    </td>
+                  </tr>
+
+                  <!-- ===== Paragraph 2 ===== -->
+                  <tr>
+                    <td class="px" style="padding:0 45px 16px 45px;">
+                      <p style="margin:0; font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:20px; font-weight:500; line-height:1.6; color:#312F33;">
+                        We're hosting an online meeting where we'll walk you through how CSE is organized, introduce each of our departments, and help you figure out which one fits you best.
+                      </p>
+                    </td>
+                  </tr>
+
+                  <!-- ===== Paragraph 3 (extra bottom space for the card sparkles) ===== -->
+                  <tr>
+                    <td class="px" style="padding:0 45px 44px 45px;">
+                      <p style="margin:0; font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:20px; font-weight:500; line-height:1.6; color:#312F33;">
+                        It's the perfect moment to ask your questions, chat with current members, and get a sneak peek at what's coming this year.
+                      </p>
+                    </td>
+                  </tr>
+
+                  <!-- =====================================================
+                       INFO CARD + 3 sparkles
+                       3 columns: [bottom-left sparkle] [card] [top-right sparkles]
+                       The sparkle images use negative margins to overlap the card's
+                       corners (Outlook desktop ignores that: they just sit beside it).
+                       ===================================================== -->
+                  <tr>
+                    <td align="center" style="padding:0 20px;">
+                      <table role="presentation" class="card-outer" width="436" cellpadding="0" cellspacing="0" border="0" align="center" style="width:436px; max-width:100%;">
+                        <tr>
+                          <!-- bottom-LEFT sparkle -->
+                          <td width="18" valign="bottom" style="padding:0; font-size:0; line-height:0;">
+                            <img
+                              src="https://lh3.googleusercontent.com/d/1lQf0K1BY__NkOOZ_M-WzbUJOFN8BHt5S"
+                              width="30"
+                              alt=""
+                              style="display:inline-block; vertical-align:bottom; width:30px; height:auto; margin:0 -24px -13px 10px; transform:rotate(12deg);"
+                            />
+                          </td>
+
+                          <!-- Card -->
+                          <td style="padding:0;">
+                            <table
+                              role="presentation"
+                              class="card-wrap"
+                              width="100%"
+                              cellpadding="0"
+                              cellspacing="0"
+                              border="0"
+                              style="
+                                width:100%;
+                                max-width:400px;
+                                background-color:#FFDAF7;
+                                border:2px solid #F978DE;
+                                border-radius:6px;
+                                box-shadow:3px 3px 0 #e38bd6;
+                              "
+                            >
+                              <!-- Date row -->
+                              <tr>
+                                <td style="padding:10px 14px 5px 14px;">
+                                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td width="22" valign="middle" style="font-size:12px; line-height:1;"><img src="https://lh3.googleusercontent.com/d/1S3MngNUFUKCHZyxW1NW1_6xUvk802zr6" width="22" height="22" alt="" style="display:inline-block; vertical-align:top; padding:0 10px; "></td>
+                                      <td class="card-label" valign="middle" style="font-family:'Quicksand',Arial,sans-serif; font-size:20px; font-weight:700; color:black;">Date</td>
+                                      <td class="card-value" align="right" valign="middle" style="font-family:'Inter',Arial,sans-serif; font-size:16px; font-weight:400; color:black;">October 13th at 20h</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <!-- Join button row -->
+                              <tr>
+                                <td align="center" style="padding:8px 14px 14px 14px;">
+                                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tr>
+                                      <td align="center" bgcolor="#F978DE" style="background-color:#F978DE; border:2px solid #000000; border-radius:6px; box-shadow:2px 2px 0 #000000;">
+                                        <a href="#" target="_blank" style="display:inline-block; padding:12px 32px; font-family:'Quicksand',Arial,sans-serif; font-size:18px; font-weight:700; color:#000000; text-decoration:none;">Join the meet</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+
+                          <!-- top-RIGHT sparkles (big + small) -->
+                          <td width="18" valign="top" style="padding:0; font-size:0; line-height:0;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td style="padding:0; font-size:0; line-height:0;">
+                                  <img
+                                    src="https://lh3.googleusercontent.com/d/1lQf0K1BY__NkOOZ_M-WzbUJOFN8BHt5S"
+                                    width="40"
+                                    alt=""
+                                    style="display:inline-block; vertical-align:top; width:40px; height:auto; margin:-31px 0 0 -33px; transform:rotate(-12deg);"
+                                  />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding:0; font-size:0; line-height:0;">
+                                  <img
+                                    src="https://lh3.googleusercontent.com/d/1lQf0K1BY__NkOOZ_M-WzbUJOFN8BHt5S"
+                                    width="28"
+                                    alt=""
+                                    style="display:inline-block; vertical-align:top; width:28px; height:auto; margin:2px 0 0 -10px; transform:rotate(15deg);"
+                                  />
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <tr><td height="36" style="font-size:0; line-height:0;">&nbsp;</td></tr>
+
+                  <!-- ===== Closing paragraph 1 ===== -->
+                  <tr>
+                    <td class="px" style="padding:0 45px 16px 45px;">
+                      <p style="margin:0; font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:20px; font-weight:500; line-height:1.6; color:#312F33;">
+                        Bring your curiosity and your questions, we can't wait to see you online and help you find your place in the club.
+                      </p>
+                    </td>
+                  </tr>
+
+                  <!-- ===== Closing paragraph 2 ===== -->
+                  <tr>
+                    <td class="px" style="padding:0 45px 16px 45px;">
+                      <p style="margin:0; font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:20px; font-weight:500; line-height:1.6; color:#312F33;">
+                        See you soon, and welcome again to the CSE family!
+                      </p>
+                    </td>
+                  </tr>
+
+                  <!-- ===== Orange sign-off ===== -->
+                  <tr>
+                    <td class="px" align="center" style="padding:0 45px 24px 45px;">
+                      <p style="margin:0; font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:24px; font-weight:700; line-height:1.4; color:#E37125;">
+                        Here's to a fantastic year ahead,
+                      </p>
+                    </td>
+                  </tr>
+
+
+                  <!-- =====================================================
+                       FOOTER: the shape image is the BACKGROUND, text sits on top.
+                       ===================================================== -->
+                  <tr>
+                    <td
+                      align="center"
+                      valign="top"
+                      background="https://lh3.googleusercontent.com/d/1va92vPCEJgxHp4U_8UIUiij8sTIFe8A2"
+                      style="
+                        background-image:url('https://lh3.googleusercontent.com/d/1va92vPCEJgxHp4U_8UIUiij8sTIFe8A2');
+                        background-repeat:no-repeat;
+                        background-position:center top;
+                        background-size:cover;
+                      "
+                    >
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+
+                        <tr><td height="64" style="font-size:0; line-height:0;">&nbsp;</td></tr>
+
+                        <!-- "For more question about" (Outfit) -->
+                        <tr>
+                          <td align="center" style="padding:0 45px 14px 45px;">
+                            <p style="margin:0; font-family:'Outfit','Helvetica Neue',Arial,sans-serif; font-size:24px; font-weight:600; color:black;">
+                              For More Question About
+                            </p>
+                          </td>
+                        </tr>
+
+                        <!-- "Info Session" + logo -->
+                        <tr>
+                          <td align="center" style="padding:0 45px 22px 45px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                              <tr>
+                                <td valign="middle" style="padding-right:14px;">
+                                  <span class="footer-title" style="font-family:'Quicksand','Helvetica Neue',Arial,sans-serif; font-size:43.5px; font-weight:700; color:black;">
+                                    Info Session
+                                  </span>
+                                </td>
+                                <td valign="middle">
+                                  <img
+                                    src="https://lh3.googleusercontent.com/d/1suKZqFW3CyIbSTiBUd8uP3ealc0jx1Bj"
+                                    width="215"
+                                    alt="Club Scientifique de l'ESI"
+                                    style="display:block; width:215px; max-width:100%; height:auto;"
+                                  />
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+                        <!-- CONTACT US (Outfit) -->
+                        <tr>
+                          <td align="center" style="padding:0 45px 6px 45px;">
+                            <p style="margin:0; font-family:'Outfit','Helvetica Neue',Arial,sans-serif; font-size:18px; font-weight:800; letter-spacing:0.5px; color:black;">
+                              CONTACT US
+                            </p>
+                          </td>
+                        </tr>
+
+                        <!-- Email line (Inter) -->
+                        <tr>
+                          <td align="center" style="padding:0 45px 14px 45px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:16px; font-weight:400; line-height:1.5; color:#111111;">
+                            By email
+                            <a href="mailto:cse@esi.dz" style="color:#d946c8; text-decoration:underline; font-weight:700;">cse@esi.dz</a>
+                            or on social media
+                          </td>
+                        </tr>
+
+                        <!-- Social icons -->
+                        <tr>
+                          <td align="center" style="padding:0 45px 28px 45px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                              <tr>
+                                <td style="padding:0 7px;">
+                                  <a href="https://www.instagram.com/cse.club/" style="text-decoration:none;">
+                                    <img src="https://lh3.googleusercontent.com/d/1i7ZSZ3L9jm1zwEAkJgazj-nABxTd9n_l" width="22" alt="Instagram" style="display:block; width:22px; font-family:Arial,sans-serif; font-size:11px; color:#111111;" />
+                                  </a>
+                                </td>
+                                <td style="padding:0 7px;">
+                                  <a href="https://web.facebook.com/club.scientifique.esi/" style="text-decoration:none;">
+                                    <img src="https://lh3.googleusercontent.com/d/11eNygY2VTc-f46lWf0LUzeknA-gLq0WO" width="22" alt="Facebook" style="display:block; width:22px; font-family:Arial,sans-serif; font-size:11px; color:#111111;" />
+                                  </a>
+                                </td>
+                                <td style="padding:0 7px;">
+                                  <a href="https://x.com/CSESI_Club" style="text-decoration:none;">
+                                    <img src="https://lh3.googleusercontent.com/d/1kxFGSagOnl60FHbG3OU1-dU1w_H6HM6n" width="22" alt="X" style="display:block; width:22px; font-family:Arial,sans-serif; font-size:11px; color:#111111;" />
+                                  </a>
+                                </td>
+                                <td style="padding:0 7px;">
+                                  <a href="https://www.linkedin.com/company/cse-club/posts/" style="text-decoration:none;">
+                                    <img src="https://lh3.googleusercontent.com/d/1Et3laz8E802NmejYfDr1Ka00Kyg8DffG" width="22" alt="LinkedIn" style="display:block; width:22px; font-family:Arial,sans-serif; font-size:11px; color:#111111;" />
+                                  </a>
+                                </td>
+                                <td style="padding:0 7px;">
+                                  <a href="https://www.youtube.com/channel/UCHgeF6ELJW0Pt1vYoAomCig" style="text-decoration:none;">
+                                    <img src="https://lh3.googleusercontent.com/d/1tZYA6Mqq2tGVHMlKW_v9IwdIRJtU8ZCS" width="22" alt="YouTube" style="display:block; width:22px; font-family:Arial,sans-serif; font-size:11px; color:#111111;" />
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+                      </table>
+                    </td>
+                  </tr>
+
+                </table>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
